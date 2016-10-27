@@ -11,15 +11,15 @@ class SnapshotFlow extends Component {
         <ol>
           <li>
             Add a test file <span style={styles.highlight}>[component_name].test.js</span> to
-            a <span style={styles.highlight}>__tests__</span> directory close to the component code.
+            a <span style={styles.highlight}>__tests__</span> directory close to the component code
           </li>
           <li>
             Use <span style={styles.highlight}>toMatchSnapshot()</span> to assert the
             rendered component matches the snapshot
           </li>
           <li>
-            Running the test creates a snapshot file in
-            the <span style={styles.highlight}>src/__tests__/components/__snapshots__</span> directory
+            Running the test creates a snapshot file of the rendered component in
+            the <span style={styles.highlight}>__tests__/__snapshots__</span> directory
           </li>
           <li>
             When the test passes <span style={styles.highlight}>git commit</span> the

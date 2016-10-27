@@ -32,7 +32,7 @@ exports[`test JSX matches snapshot 1`] = `
         }>
         __tests__
       </span>
-       directory close to the component code.
+       directory close to the component code
     </li>
     <li>
       Use 
@@ -50,7 +50,7 @@ exports[`test JSX matches snapshot 1`] = `
        to assert the rendered component matches the snapshot
     </li>
     <li>
-      Running the test creates a snapshot file in the 
+      Running the test creates a snapshot file of the rendered component in the 
       <span
         style={
           Object {
@@ -60,7 +60,7 @@ exports[`test JSX matches snapshot 1`] = `
             "fontWeight": "bold",
           }
         }>
-        src/__tests__/components/__snapshots__
+        __tests__/__snapshots__
       </span>
        directory
     </li>
