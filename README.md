@@ -9,6 +9,12 @@ Basic examples and suggested snapshot workflow for team on-boarding.
   * `http://localhost:3000`
   * `yarn test`
 
-## Notes
+## Links
 
-  * boilerplate is an ejected [create-react-app](https://github.com/facebookincubator/create-react-app)
+  * [jest](https://facebook.github.io/jest/)
+  * [create-react-app](https://github.com/facebookincubator/create-react-app)
+  * [yarn](https://yarnpkg.com/)
+
+## License
+
+[MIT](https://github.com/mutablestate/gogojest/blob/master/LICENSE.md)
