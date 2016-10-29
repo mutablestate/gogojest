@@ -9,6 +9,20 @@ Basic examples and suggested snapshot workflow for team on-boarding.
   * `http://localhost:3000`
   * `yarn test`
 
+## Tips
+
+Add html syntax highlighting for `.snap` files to your editor config.
+
+In Atom open `~/.atom/config.cson` and add a customFileType.
+
+```
+core:
+  customFileTypes:
+    "text.html.basic": [
+      "snap"
+    ]
+```
+
 <img width="1280" alt="screen shot 2016-10-28 at 6 31 42 am" src="https://cloud.githubusercontent.com/assets/953287/19789227/4362f818-9cd8-11e6-9edf-7e2051a2c905.png">
 
 ## Links
